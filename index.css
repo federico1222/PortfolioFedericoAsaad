@@ -187,6 +187,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.cartas a {
+    color: #f7a823;
+}
 .card {
     position: relative;
     width:400px;
