@@ -393,6 +393,7 @@ footer:hover {
     body {
        color:  #fff;
        background: linear-gradient(45deg, #474747, #202020,#f7a823);
+       background: -webkit-linear-gradient(45deg, #474747, #202020,#f7a823);
        width: 100%;
        height: 100vh;
        background-size: 400% 400%;
