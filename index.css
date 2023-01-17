@@ -97,6 +97,9 @@ body {
     margin-top: 20px;
 }
 
+.titulo {
+    margin: 20px;
+}
 .titulo p {
     margin-top: 20px;
     color:antiquewhite;
@@ -128,6 +131,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Skills {
+   padding-top: 30px;
 }
 
 
