@@ -1,3 +1,13 @@
+@font-face {
+    font-family: IMPACT;
+    src: url(./font/impact.ttf);
+}
+@keyframes cambiar {
+    0%{background-position:0 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0 50%;}
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -104,7 +114,7 @@ body {
 
 .titulo h1 {
     color: #bd9443;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: IMPACT;
     font-size: 6em;
 
 }
@@ -145,7 +155,6 @@ body {
    padding-top: 30px;
 }
 
-
 .mis-habilidades {
     display: flex;
     justify-content: center;
@@ -155,8 +164,8 @@ body {
 
 .mis-habilidades h1 {
     color: #bd9443;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 6em;
+    font-family: IMPACT;
     text-align: center;
 }
 
@@ -205,7 +214,7 @@ body {
 .titulo-proyecto h1 {
     text-align: center;
     color: #bd9443;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: IMPACT;
     font-size: 6em;
 }
 .cartas {
@@ -306,7 +315,7 @@ body {
 .contacto-titulo h1 {
     text-align: center;
     color: #bd9443;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:IMPACT;
     font-size: 6em;
 }
 
