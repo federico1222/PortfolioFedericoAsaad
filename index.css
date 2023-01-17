@@ -88,6 +88,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 #mi-descripcion {
@@ -99,6 +100,13 @@ body {
 
 .titulo {
     margin: 20px;
+}
+
+.titulo h1 {
+    color: #bd9443;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6em;
+
 }
 .titulo p {
     margin-top: 20px;
@@ -145,6 +153,13 @@ body {
     margin-top: 30px;
 }
 
+.mis-habilidades h1 {
+    color: #bd9443;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6em;
+    text-align: center;
+}
+
 .col-md-4 {
     padding: 20px;
     display: flex;
@@ -187,6 +202,12 @@ body {
     align-items: center;
     margin-top: 30px;
 }
+.titulo-proyecto h1 {
+    text-align: center;
+    color: #bd9443;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6em;
+}
 .cartas {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -214,6 +235,7 @@ body {
     backface-visibility: hidden;
     border-radius: 10px;
 }
+
 .card .front {
     display: flex;
     justify-content: center;
@@ -279,6 +301,13 @@ body {
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.contacto-titulo h1 {
+    text-align: center;
+    color: #bd9443;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6em;
 }
 
 .formulario {
@@ -353,14 +382,49 @@ footer:hover {
 
 @media screen and (max-width:767px) {
     body {
-       background: #8D8D8D;
+       color:  #fff;
+       background: linear-gradient(45deg, #474747, #202020,#f7a823);
+       width: 100%;
+       height: 100vh;
+       background-size: 400% 400%;
+       position: relative;
+       animation: cambiar 10s ease-in-out infinite;
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+    }
+
+    @keyframes cambiar {
+        0%{background-position:0 50%;}
+        50%{background-position:100% 50%;}
+        100%{background-position:0 50%;}
+    }
+
+    .titulo h1 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .mis-habilidades h1 {
+        font-size: 3.50em;
+    }
+
+    .titulo-proyecto h1 {
+        font-size: 4em;
+    }
+
+    .contacto-titulo h1 {
+        font-size: 4em;
+    }
+}
+@media screen and (max-width:365px) {
+    .titulo h1 {
+        text-align: center;
+        font-size: 4em;
     }
 }
 
 @media screen and (max-width:767px) {
-   .card .front {
-    background-color: rgba(59, 58, 58, 0.318);
-   }
    .fondo-1 {
     width: 100%;
    }
