@@ -417,9 +417,8 @@ footer:hover {
 
     body {
         background-image: url(img/fondo-movil.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
     }
 }
 @media screen and (max-width:365px) {
