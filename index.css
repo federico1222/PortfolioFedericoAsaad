@@ -245,6 +245,14 @@ body {
     border-radius: 10px;
 }
 
+.face h1 {
+    text-align: center;
+    color: #bd9443;
+    font-family: IMPACT;
+    font-size: 4em;
+    margin: 10px;
+}
+
 .card .front {
     display: flex;
     justify-content: center;
@@ -425,6 +433,10 @@ footer:hover {
 
     .contacto-titulo h1 {
         font-size: 4em;
+    }
+
+    .face h1 {
+        font-size: 3em;
     }
 }
 @media screen and (max-width:365px) {
