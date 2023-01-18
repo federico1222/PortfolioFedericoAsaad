@@ -2,12 +2,6 @@
     font-family: IMPACT;
     src: url(./font/impact.ttf);
 }
-@keyframes cambiar {
-    0%{background-position:0 50%;}
-    50%{background-position:100% 50%;}
-    100%{background-position:0 50%;}
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +9,7 @@
 }
 body {
    background: #8D8D8D;
-   background-image: url(img/workplace-with-smartphone-laptop-on-black-table-top-view-copyspace-background.jpg);
+   background-image: url(img/fondo\ portafolio.jpg);
    background-size: cover;
    background-attachment: fixed;
    background-repeat: no-repeat;
@@ -398,25 +392,6 @@ footer:hover {
 }
 
 @media screen and (max-width:767px) {
-    body {
-       color:  #fff;
-       background: linear-gradient(45deg, #474747, #202020,#f7a823);
-       background: -webkit-linear-gradient(45deg, #474747, #202020,#f7a823);
-       width: 100%;
-       height: 100vh;
-       background-size: 400% 400%;
-       position: relative;
-       animation: cambiar 5s ease-in-out infinite;
-       background-attachment: fixed;
-       background-repeat: no-repeat;
-    }
-
-    @keyframes cambiar {
-        0%{background-position:0 50%;}
-        50%{background-position:100% 50%;}
-        100%{background-position:0 50%;}
-    }
-
     .titulo h1 {
         text-align: center;
     }
@@ -459,6 +434,16 @@ footer:hover {
    .fondo-4 {
     width: 100%;
    }
+}
+@media screen and (max-width:1000px) {
+    .mis-proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartas {
+        width: 90%;
+    }
 }
 
 
