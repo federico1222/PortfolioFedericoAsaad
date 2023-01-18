@@ -66,6 +66,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .fondo-2 {
     margin: auto;
     width: 80%;
@@ -412,6 +413,13 @@ footer:hover {
 
     .face h1 {
         font-size: 3em;
+    }
+
+    body {
+        background-image: url(/img/fondo-movil.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
 @media screen and (max-width:365px) {
