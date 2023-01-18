@@ -416,7 +416,7 @@ footer:hover {
     }
 
     body {
-        background-image: url(/img/fondo-movil.png);
+        background-image: url(img/fondo-movil.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
