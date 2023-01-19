@@ -193,8 +193,6 @@ body {
     margin: auto;
     width: 80%;
     height: 100%;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
     background: #000000;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #43434300, #000000);
@@ -267,7 +265,6 @@ body {
     backface-visibility: hidden;
     border-radius: 10px;
 }
-
 .face h1 {
     text-align: center;
     color: #bd9443;
@@ -358,6 +355,7 @@ body {
     margin: auto;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.657);
+    backdrop-filter: blur(8px);
     padding: 10px;
 }
 
@@ -428,9 +426,16 @@ footer:hover {
 }
 
 @media screen and (max-width:767px) {
-    .titulo h1 {
-        text-align: center;
+
+    #presentacion {
+        margin-top: 20px;
     }
+    #imagen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
 }
 
 @media screen and (max-width:600px) {
