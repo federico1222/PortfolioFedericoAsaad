@@ -265,6 +265,7 @@ body {
     backface-visibility: hidden;
     border-radius: 10px;
 }
+
 .face h1 {
     text-align: center;
     color: #bd9443;
@@ -292,7 +293,7 @@ body {
 
 .card .back {
     transform: perspective(600px) rotateY(180deg);
-    padding: 15px;
+    padding: 20px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -426,10 +427,6 @@ footer:hover {
 }
 
 @media screen and (max-width:767px) {
-
-    #presentacion {
-        margin-top: 20px;
-    }
     #imagen {
       display: flex;
       justify-content: center;
@@ -457,13 +454,7 @@ footer:hover {
 
 }
 
-@media screen and (max-width:365px) {
-    .titulo h1 {
-        text-align: center;
-        font-size: 4em;
-    }
 
-}
 
 @media screen and (max-width:767px) {
     .fondo-1 {
@@ -483,7 +474,7 @@ footer:hover {
     }
 
     .card .front {
-        border: 1px solid rgba(160, 160, 160, 0.479);
+        border: 1px solid rgba(160, 160, 160, 0.158);
     }
 }
 
@@ -502,5 +493,15 @@ footer:hover {
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+    }
+    @media screen and (max-width:365px) {
+        .titulo h1 {
+            text-align: center;
+            font-size: 4em;
+        }
+        body {
+            background:rgb(49, 16, 16);
+        }
+    
     }
 }
