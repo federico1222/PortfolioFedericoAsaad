@@ -428,9 +428,9 @@ footer:hover {
 
 @media screen and (max-width:767px) {
     #imagen {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -489,19 +489,16 @@ footer:hover {
     }
 
     body {
-        background-image: url(img/fondo-movil.png);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+
+        background: rgb(49, 16, 16);
+
     }
+
     @media screen and (max-width:365px) {
         .titulo h1 {
             text-align: center;
             font-size: 4em;
         }
-        body {
-            background:rgb(49, 16, 16);
-        }
-    
+
     }
 }
