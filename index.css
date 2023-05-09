@@ -73,6 +73,7 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #43434300, #000000);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .uno {
@@ -453,8 +454,6 @@ footer:hover {
     }
 
 }
-
-
 
 @media screen and (max-width:767px) {
     .fondo-1 {
